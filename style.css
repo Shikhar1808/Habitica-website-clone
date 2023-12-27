@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+header{
+    background-color:#432874 ;
+}
+
+#nevbar{
+    width: 800px;
+    background-color: #432874 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px 8px 18px;
+    text-align: center;
+}
+
+#logo{
+    height: 56px;
+    width: 100px;
+    background-size: contain;
+}
+
+.nav{
+    max-height: 14px;
+    display: inline;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+#profile{
+    height: 220px;
+    background-color: #36205D;
+    padding: 9px 0px 8px 24px;
+    margin: 0px -12px;
+}
+
+main{
+    background-color: white;
+}
+
+ul{
+    display: inline;
+    width: 168.5;
+    height: 104.5;
+    list-style: none;
+}
+
+#fheading{
+    color: #34313A;
+    margin-top: 25px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+#tasks{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+#habits,#Dailies,#TODOS,#rewards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 32px;
+    font-family: sans-serif;
+}
+
+footer{
+    background-color: #E1E0E3;
+    display: flex;
+    justify-content: space-around;
+    color: #4E4A57;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 405px;
+   
+}
+
+#operations{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#t{
+    width: 350px;
+    height: 1295px;
+    display: inline;
+    padding: 8px 8px 30px;
+    background-color: #EDECEE;
+}
+
+textarea{
+    padding: 12px 16px;
+    margin: 3px;
+    background-color: #1A181D0F;
+    width: 300px;
+}
+
+#sea{
+    display: flex;
+    justify-content: center;
+    padding: 4px 16px 4px 12px;
+}
+
+input{
+    width: 228px;
+    height: 32px;
+}
+
+#b1{
+    height: 32px;
+    display: inline;
+    width: 105px;
+}
+
+#b2{
+    height: 32px;
+    position: absolute;
+    right: 20px;
+    width: 109px;
+}
+
+#avatar{
+    background-image: url("/Screenshot\ 2023-10-15\ 032717.png");
+    height: 180px;
+    width: 170px;
+    background-color: aqua;
+    border: 4px solid violet;
+    margin: 9px 0px 8px 24px;
+}
